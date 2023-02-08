@@ -1,0 +1,35 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'size_config.dart';
+
+const kBlackColor = Color(0xff000000);
+const kLightBlackColor = Color(0xff3F3F3F);
+
+const kGreyColor = Color(0xffD4D4D4);
+const kDarkGreyColor = Color(0xff464646);
+
+const kBlueColor = Color(0xff567DF4);
+const kYellowColor = Color(0xffF3C939);
+const kRedColor = Color(0xffF45656);
+const kCyanColor = Color(0xff34DEDE);
+
+const kLightBlueColor = Color(0xffEEF7FE);
+const kLightYellowColor = Color(0xffFFFBEC);
+const kLightRedColor = Color(0xffFEEEEE);
+const kLightCyanColor = Color(0xffF0FFFF);
+
+final double kPaddingHor = SizeConfig.blockSizeHorizontal! * 6;
+const double kBorderRadius = 10.0;
+
+final kQuestrailBold = GoogleFonts.questrial(
+  fontWeight: FontWeight.w700,
+);
+final kQuestrailSemiBold = GoogleFonts.questrial(
+  fontWeight: FontWeight.w700,
+);
+final kQuestrailMedium = GoogleFonts.questrial(
+  fontWeight: FontWeight.w700,
+);
+final kQuestrailRegular = GoogleFonts.questrial(
+  fontWeight: FontWeight.w400,
+);
